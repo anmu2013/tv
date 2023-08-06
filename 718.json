@@ -1,6 +1,6 @@
 {
   //爬虫
-  "spider": "https://ghproxy.com/?q=https%3A%2F%2Fgithub.com%2Fanmu2013%2Ftv%2Fblob%2Fmain%2F718.jar",
+  "spider": "https://ghproxy.com/https://raw.githubusercontent.com/anmu2013/tv/main/718.jar",
   //直播
   "lives": [
     {
