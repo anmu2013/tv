@@ -11,13 +11,14 @@
     "logo":"https://epg.112114.xyz/logo/{name}.png"
   }],
   "sites":[
-    {
+    { 
+	  "key": "xjp"
       "name": "新极品资源站",
       "type": 0,
       "api": "https://jipinvip1.com/api.php/provide/vod/",
       "searchable": 1,
       "changeable": 1,
-      "playerType": 2
+      "filterable": 1
     },
     {
       "name": "玉兔资源站",
