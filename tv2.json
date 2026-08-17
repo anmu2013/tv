@@ -12,14 +12,32 @@
   }],
   "sites":[
     {
-     "key": "iysdq_xyqh_string",
-      "name": "🎬 影视大全 (XYQH免Jar直连)",
+     "key": "iysdq",
+      "name": "影视大全",
       "type": 3,
-      "api": "csp_XYQH",
+      "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://gh.xmly.dev/https://raw.githubusercontent.com/anmu2013/tv/refs/heads/main/iysdq.js"
+      "filterable": 1,
+      "ext": {
+        "站名": "影视大全",
+        "主页url": "https://www.iysdq.tv",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+        "分类url": "https://www.iysdq.tv/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+        "数组": "class=\"module-item\"&&</div>",
+        "图片": "data-src=\"&&\"",
+        "标题": "title=\"&&\"",
+        "链接": "href=\"&&\"",
+        "副标题": "class=\"module-item-text\"&&</div>",
+        "搜索url": "https://www.iysdq.tv/vodsearch/{wd}----------{pg}---.html",
+        "搜索数组": "class=\"module-search-item\"&&</div>",
+        "搜索图片": "data-src=\"&&\"",
+        "搜索标题": "alt=\"&&\"",
+        "搜索链接": "href=\"&&\"",
+        "播放数组": "class=\"module-play-list\"&&</div>",
+        "播放列表": "<a&&</a>",
+        "播放标题": ">&&<",
+        "播放链接": "href=\"&&\""
     }
   ],
 
