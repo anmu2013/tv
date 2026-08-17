@@ -11,7 +11,16 @@
     "logo":"https://epg.112114.xyz/logo/{name}.png"
   }],
   "sites":[
-    {"key":"js_iysdq","name":"影视大全 (JS版)","type":3,"api":"csp_Fantuan","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gh.jasonzeng.dev/https://raw.githubusercontent.com/anmu2013/tv/refs/heads/main/iysdq.js"}
+    {
+      "key": "js_iysdq",
+      "name": "🎬 影视大全(专属优化源)",
+      "type": 3,
+      "api": "https://jsdelivr.net",
+      "ext": "https://gh.xmly.dev/https://raw.githubusercontent.com/anmu2013/tv/refs/heads/main/iysdq.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    }
   ],
 
   
