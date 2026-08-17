@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;a148eb406043b0f99999014a9c961b32",
+  "spider": "https://gh.jasonzeng.dev/https://github.com/anmu2013/tv/blob/main/spider.jar;md5;a148eb406043b0f99999014a9c961b32",
   "lives": [
     {"name": "migu","type": 0,"url": "https://develop202.github.io/migu_video/interface.txt","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
     {"name": "live","type": 0,"url": "https://epg.pw/test_channels.m3u","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
