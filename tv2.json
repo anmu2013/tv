@@ -12,11 +12,10 @@
   }],
   "sites":[
     {
-      "key": "js_iysdq",
-      "name": "🎬 影视大全(专属优化源)",
-      "type": 3,
-      "api": "csp_DRPY",
-      "ext": "https://gh.xmly.dev/https://raw.githubusercontent.com/anmu2013/tv/refs/heads/main/iysdq.js",
+      "key": "cms_iysdq_direct",
+      "name": "⚡ 影视大全 (纯净直连源)",
+      "type": 0,
+      "api": "https://iysdq.tv",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
