@@ -1,5 +1,5 @@
 {
-  "spider":"http://ftp6284928.host108.abeiyun.cn/jar/tvbox.txt;md5;a4bf71ea71185b7815d3e94d591a7c51",
+  "spider":"",
   "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
   "lives":[{
     "name":"live",
@@ -12,13 +12,26 @@
   }],
   "sites":[
     {
-      "key": "cms_iysdq_direct",
-      "name": "⚡ 影视大全 (纯净直连源)",
-      "type": 0,
-      "api": "https://iysdq.tv",
+      "key": "iysdq_html",
+      "name": "🎬 影视大全 (全能解析源)",
+      "type": 3,
+      "api": "csp_XYQH",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1
+      "changeable": 1,
+      "ext": {
+        "主页url": "https://www.iysdq.tv",
+        "请求头": "User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36#Referer$https://iysdq.tv",
+        "起始页": "1",
+        "分类url": "https://iysdq.tvvodshow/{fyclass}/page/{fypage}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+        "分类明细": ".vod-list-item;a&&title;img&&data-original;.remarks&&Text;a&&href",
+        "详情": "h1&&Text;.vod-detail-pic&&img&&src;.vod-detail-content&&Text",
+        "线路": ".playlist-tab&&li",
+        "播放列表": ".playlist&&ul:eq(#id)&&li",
+        "播放集数": "a&&Text;a&&href",
+        "搜索url": "https://iysdq.tvvodsearch/page/{fypage}/wd/{key}.html",
+        "搜索明细": ".search-result-item;a&&title;img&&src;.remarks&&Text;a&&href"
     }
   ],
 
