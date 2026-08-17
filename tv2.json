@@ -1,5 +1,5 @@
 {
-  "spider":"http://ftp6284928.host108.abeiyun.cn/jar/tvbox.txt;md5;a4bf71ea71185b7815d3e94d591a7c51",
+  "spider":"https://jsdelivr.net",
   "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
   "lives":[{
     "name":"live",
@@ -15,7 +15,7 @@
       "key": "js_iysdq",
       "name": "🎬 影视大全(专属优化源)",
       "type": 3,
-      "api": "https://jsdelivr.net",
+      "api": "csp_DRPY",
       "ext": "https://gh.xmly.dev/https://raw.githubusercontent.com/anmu2013/tv/refs/heads/main/iysdq.js",
       "searchable": 1,
       "quickSearch": 1,
